@@ -1,0 +1,59 @@
+.headerContent {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  padding: 10px;
+  text-align: justify;
+  align-content: center;
+  position: relative;
+  justify-content: space-around;
+  height: 100%;
+}
+.outerDiv {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to top, #ace0f9 0%, #fff1eb 100%);
+}
+@media screen and (max-width: 498px) {
+  .profileImg {
+    background-color: blue;
+    border-radius: 50%;
+    width: 243px;
+    height: 243px;
+  }
+}
+
+@media screen and (min-width: 499px) {
+  .profileImg {
+    background-color: blue;
+    border-radius: 50%;
+    width: 243px;
+    height: 243px;
+  }
+  .headerContent div:nth-of-type(2) {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .headerContent div:nth-of-type(3) {
+    padding: 10px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+.button {
+  width: 208px;
+  height: 47px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  background-color: "#FF6464";
+}

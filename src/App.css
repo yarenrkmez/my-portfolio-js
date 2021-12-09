@@ -1,0 +1,17 @@
+body,
+html {
+  height: 100%;
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+
+.wrapper {
+  /* Full height */
+  height: 100%;
+  max-width: 1200px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
