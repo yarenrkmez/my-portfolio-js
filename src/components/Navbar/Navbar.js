@@ -7,7 +7,7 @@ function Navbar() {
     <div className="navbar">
       <a>Anasayfa</a>
       <a href="#aboutMe">Hakkımda</a>
-      <a>Öz Geçmiş</a>
+      <a href="#resume">Öz Geçmiş</a>
       <a>İletişim</a>
     </div>
   );

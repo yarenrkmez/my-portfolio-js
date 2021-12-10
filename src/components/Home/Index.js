@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import { Home, Buttons } from "../../utils/Text";
 import AboutMe from "../AboutMe/AboutMe";
 import Navbar from "../Navbar/Navbar";
+import Resume from "../Resume/Resume";
 import "./Home.css";
 import profilePhoto from "../../assets/Images/profil_photo.jpg";
 
@@ -55,6 +56,7 @@ function Index() {
         </div>
       </div>
       <AboutMe />
+      <Resume />
     </>
   );
 }

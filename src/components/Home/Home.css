@@ -11,7 +11,20 @@
   height: 100%;
 }
 
-.aboutMeContent{
+.aboutMeContent {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  padding: 10px;
+  text-align: justify;
+  align-content: center;
+  position: relative;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.resumeContent {
   display: flex;
   flex-direction: column;
   justify-items: center;
@@ -30,6 +43,14 @@
   flex-direction: column;
   background-image: linear-gradient(to top, #ace0f9 0%, #fff1eb 100%);
 }
+
+.outerDivResume {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+
 @media screen and (max-width: 498px) {
   .profileImg {
     border-radius: 50%;
@@ -38,7 +59,7 @@
     background-repeat: no-repeat;
     object-fit: fill;
     vertical-align: middle;
-    }
+  }
 }
 
 @media screen and (min-width: 499px) {
@@ -75,14 +96,53 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     border-radius: 5px;
   }
   .aboutMeContent div:nth-of-type(2):hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   }
-  
+
+  .resumeContent div:nth-of-type(1) {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .resumeInnerDiv {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+  }
+  .resumeLeftbar {
+    padding: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .resumeLeftbar div:nth-of-type(1) {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+  }
+  .resumeLeftbar div:nth-of-type(1) a {
+    color:rebeccapurple;
+  }
+  .resumeLeftbar div:nth-of-type(1) a:hover{
+    color:blue;
+  }
+  .resumeInnerDiv div:nth-of-type(2) {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 
 .button {
@@ -172,4 +232,3 @@ a {
   -o-transform: rotate(0deg);
   transform: rotate(0deg);
 }
-
