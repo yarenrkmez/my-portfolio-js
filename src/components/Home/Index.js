@@ -45,11 +45,7 @@ function Index() {
 
         <div className="headerContent">
           <img src={profilePhoto} className="profileImg"></img>
-          <div>
-            <span>github</span>
-            <span>github</span>
-            <span>github</span>
-          </div>
+
           <div>
             <p>{Home.header}</p>
             <p>{Home.subHeader}</p>
