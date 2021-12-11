@@ -6,9 +6,8 @@ function Navbar() {
   return (
     <div className="navbar">
       <a>Anasayfa</a>
-      <a href="#aboutMe">Hakkımda</a>
       <a href="#resume">Öz Geçmiş</a>
-      <a>İletişim</a>
+      <a href="#contactMe">İletişim</a>
     </div>
   );
 }

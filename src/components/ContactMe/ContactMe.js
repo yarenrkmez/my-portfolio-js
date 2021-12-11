@@ -1,9 +1,9 @@
 import React from "react";
 
-const AboutMe = () => {
+const ContactMe = () => {
   return (
-    <div id="aboutMe" className="outerDiv">
-      <div className="aboutMeContent">
+    <div id="contactMe" className="outerDiv">
+      <div className="contactMeContent">
         <div>about</div>
         <div>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
@@ -23,4 +23,4 @@ const AboutMe = () => {
   );
 };
 
-export default AboutMe;
+export default ContactMe;

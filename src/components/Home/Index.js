@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import { Home, Buttons } from "../../utils/Text";
-import AboutMe from "../AboutMe/AboutMe";
+import ContactMe from "../ContactMe/ContactMe";
 import Navbar from "../Navbar/Navbar";
 import Resume from "../Resume/Resume";
 import "./Home.css";
@@ -56,8 +56,8 @@ function Index() {
           </div>
         </div>
       </div>
-      <AboutMe />
       <Resume />
+      <ContactMe />
     </>
   );
 }

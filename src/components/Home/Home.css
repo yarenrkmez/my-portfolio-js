@@ -11,9 +11,9 @@
   height: 100%;
 }
 
-.aboutMeContent {
+.contactMeContent {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-items: center;
   align-items: center;
   padding: 10px;
@@ -64,7 +64,6 @@
 
 @media screen and (min-width: 499px) {
   .profileImg {
-    background-color: blue;
     border-radius: 50%;
     width: 243px;
     height: 243px;
@@ -80,13 +79,13 @@
     transition: 0.3s;
   }
 
-  .aboutMeContent div:nth-of-type(1) {
+  .contactMeContent div:nth-of-type(1) {
     padding: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
-  .aboutMeContent div:nth-of-type(2) {
+  .contactMeContent div:nth-of-type(2) {
     padding: 10px;
     width: 80%;
     height: 80%;
@@ -121,17 +120,25 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    border-right: 2px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .resumeSelected {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    background-color: turquoise;
+    padding: 10px;
+    font-size: 20px;
   }
   .resumeLeftbar div:nth-of-type(1) {
     display: flex;
     flex-direction: column;
-    padding: 50px;
-  }
-  .resumeLeftbar div:nth-of-type(1) a {
-    color:rebeccapurple;
-  }
-  .resumeLeftbar div:nth-of-type(1) a:hover{
-    color:blue;
+    padding: 10px;
+    font-size: 20px;
   }
   .resumeInnerDiv div:nth-of-type(2) {
     padding: 50px;
@@ -139,6 +146,7 @@
     flex-direction: row;
     justify-content: space-between;
   }
+  
 }
 
 .button {
@@ -196,4 +204,3 @@ a {
   height: 20px;
   font-size: 20px;
 }
-
